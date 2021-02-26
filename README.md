@@ -9,7 +9,7 @@ This is DIY approach similar to DJI motion controller or Vector from MotionPilot
 
 <h2>Link to ongoing development of 3d printed case</h2>
 <a href="https://cad.onshape.com/documents/b3c1199856b12aa9a28603eb/w/a9a976ad83ac583be5dcaa99/e/4ac61a4f71fcc0e35afef49c">Here</a><br>
-<h2>Electronics</h2> - might change further in development
+<h2>Electronics and hardware</h2> - might change further in development
 <ul>
   <li><a href="https://www.aliexpress.com/item/33048962331.html?spm=a2g0o.search0303.0.0.789c553665f0a7&algo_pvid=e3233321-abd2-4204-9bb5-541e24e18778&algo_expid=e3233321-abd2-4204-9bb5-541e24e18778-0&btsid=2100bb4916143297686067991ed525&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_">TTGO T-display</a></li>
   <li><a href="https://www.aliexpress.com/item/32340949017.html?spm=a2g0o.productlist.0.0.2c543357BdyNy1&algo_pvid=2966f4e2-bcba-483c-a28e-3dbabee5240b&algo_expid=2966f4e2-bcba-483c-a28e-3dbabee5240b-0&btsid=2100bb4716143298209287501e8f63&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_">GY-521 MPU6050 Gyro</a></li>
