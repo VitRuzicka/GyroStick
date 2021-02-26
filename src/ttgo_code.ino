@@ -22,3 +22,8 @@
 #define BUTTON_2            0
 
 TFT_eSPI tft = TFT_eSPI(135, 240); // Invoke custom library
+
+void setup(){
+}
+void loop(){
+}
