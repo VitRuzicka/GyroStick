@@ -27,3 +27,6 @@ This is DIY approach similar to DJI motion controller or Vector from MotionPilot
   <li>You would want to install ttgo t-display library from <a href="https://github.com/Xinyuan-LilyGO/TTGO-T-Display">here</a></li>
   
   </ul>
+  
+  <br>
+  <p> I am planning to connect this gyrostick to taranis as slave device in order to keep current frsky protocol and not change any radio protocol, beacuse of this, it will be universal and usable even with flysky radios. Still thinking whether to use the DSC port 3.5mm jack or bay connector for this. If jack supports SBUS instead of ppm, I would rather leave the bay unused for XF and especially ELRS users :)
