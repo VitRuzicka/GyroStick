@@ -21,3 +21,9 @@ This is DIY approach similar to DJI motion controller or Vector from MotionPilot
   <li><a href="https://www.aliexpress.com/item/32929601888.html?spm=a2g0o.productlist.0.0.4e9d53e7y3RyKL&algo_pvid=ef9514f6-a0c0-42ef-87aa-8a9dadeef8e8&algo_expid=ef9514f6-a0c0-42ef-87aa-8a9dadeef8e8-25&btsid=0b0a119a16143303423476306efea0&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_">18650 battery</a></li>
   
  </ul>
+ <br>
+ <h2>Software</h2> 
+ <ul>
+  <li>You would want to install ttgo t-display library from <a href="https://github.com/Xinyuan-LilyGO/TTGO-T-Display">here</a></li>
+  
+  </ul>
