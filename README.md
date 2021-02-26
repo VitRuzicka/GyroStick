@@ -1,4 +1,5 @@
 # GyroStick
+<img src="joystick.png">
 motion controller for model aircraft
 
 <h1> Description</h1>
