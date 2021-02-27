@@ -35,3 +35,5 @@ This is DIY approach similar to DJI motion controller or Vector from MotionPilot
   <img src="http://eklex.cc/wp-content/uploads/2014/10/PPM-jack-pinout.png" width=100 height =250>
   And as it turns out, you can use the HEARTBEAT port in you bay as SBUS IN, I will have to decide if use sbus in bay or ppm in connector. Just set taranis as Master /SBUS module (not sure about the module)
   <img src="https://blog.seidel-philipp.de/wp-content/uploads/2018/06/frsky_taranisX-lite_remote_controle-16-1024x683.jpg">
+
+<p>The communication between esps will be secured by esp-now protocol and will maintain secure one way connection better than standart wifi connection.</p>
