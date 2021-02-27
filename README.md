@@ -4,7 +4,7 @@ motion controller for model aircraft
 
 <h1> Description</h1>
 This is DIY approach similar to DJI motion controller or Vector from MotionPilot<br>
-<b> Work in progress</b>
+<b style="color:red;"> Work in progress</b>
 
 
 
@@ -30,7 +30,7 @@ This is DIY approach similar to DJI motion controller or Vector from MotionPilot
   </ul>
   
   <br>
-  <p> I am planning to connect this gyrostick to taranis as slave device in order to keep current frsky protocol and not change any radio protocol, beacuse of this, it will be universal and usable even with flysky radios. Still thinking whether to use the DSC port 3.5mm jack or bay connector for this. If jack supports SBUS instead of ppm, I would rather leave the bay unused for XF and especially ELRS users :)</p>
+  <p> I am planning to connect this gyrostick to taranis as slave device in order to keep current frsky protocol and not change any radio protocol, because of this, it will be universal and usable even with flysky radios. Still thinking whether to use the DSC port 3.5mm jack or bay connector for this. If jack supports SBUS instead of ppm, I would rather leave the bay unused for XF and especially ELRS users :)</p>
   DSC port pinout:
   <img src="http://eklex.cc/wp-content/uploads/2014/10/PPM-jack-pinout.png" width=100 height =250>
   And as it turns out, you can use the HEARTBEAT port in you bay as SBUS IN, I will have to decide if use sbus in bay or ppm in connector. Just set taranis as Master /SBUS module (not sure about the module)
