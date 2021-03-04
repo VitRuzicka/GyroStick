@@ -37,6 +37,7 @@ void espDelay(int ms)
 }
 
 void showMenu(){
+  tft.setTextSize(2);
   static uint64_t timeStamp = 0;
   if (millis() - timeStamp > 1000) { //refreah rate kazduch 1000 ms
     timeStamp = millis();
@@ -47,6 +48,9 @@ void showMenu(){
     if(CONNECTED){
   tft.pushImage(0, 0,  20, 15, wifi);
   }
+  tft.setTextSize(1);
+  tft.setTextDatum(BC_DATUM);
+  tft.drawString(WiFi.macAddress(), tft.width()/2, tft.height());
   }
 }
 
@@ -69,10 +73,12 @@ void setup() {
   tft.setTextSize(2);
   tft.setSwapBytes(true);
   tft.pushImage(0, 0,  135, 240, logo);
-  espDelay(1000);
+  espDelay(1000);                 /////neblokujici nebo alepson doufam
   analogWrite(4, JAS);
   tft.fillScreen(TFT_BLACK);
-  
+
+
+  WiFi.mode(WIFI_MODE_STA); //soucast esp-now
 
 }
 void loop() {
