@@ -15,14 +15,15 @@ uint8_t  faze = 0;
 uint32_t delka_framu = 0;
 uint32_t kanal[pocet_kanalu];
 uint32_t dalsi;
- 
+byte nastaveni = 0;
 
 typedef struct struct_message {
     byte roll;
     byte pitch;
     byte throttle;
     byte yaw;
-    byte arm;
+    bool arm;
+    byte settings;   //lze vyuzit pro neco v budoucnosti
     byte aux1;
 } struct_message; 
 
@@ -39,6 +40,7 @@ void OnDataRecv(uint8_t * mac, uint8_t *prichoziData, uint8_t len) {
   kanal[3] = konvertuj(zprava.yaw);
   kanal[4] = konvertuj(zprava.arm);
   kanal[5] = konvertuj(zprava.aux1);
+  nastaveni = konvertuj(zprava.settings);
   
 }
 
